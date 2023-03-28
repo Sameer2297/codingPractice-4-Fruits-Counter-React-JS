@@ -1,0 +1,55 @@
+.bg-container {
+  background-color: #ffd569;
+  min-height: 100vh;
+  padding: 40px;
+}
+
+.main-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  overflow: auto;
+}
+
+.main-head {
+  color: #000000;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+span {
+  color: #ffd569;
+}
+
+.img-cont {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  width: 60%;
+}
+
+.btn {
+  background-color: #007bff;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
